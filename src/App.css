@@ -1,0 +1,15 @@
+.main-container{
+  background: beige;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+
+}
+
+h1{
+  color: blueviolet;
+  font-size: 80px;
+  text-shadow: 1px 1px 10px white;
+}
