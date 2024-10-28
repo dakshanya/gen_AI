@@ -12,4 +12,37 @@ h1{
   color: blueviolet;
   font-size: 80px;
   text-shadow: 1px 1px 10px white;
+  padding: 30px;
+}
+
+.form-container{
+  background: #fff;
+  min-height: 500px;
+  width: 500px;
+  box-shadow: 1px 1px 10px #999;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.form-container  div{
+  width: 100%;
+  padding: 40px;
+}
+label{
+  display: block;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.query_input{
+  font-size: 17px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  box-shadow: 1px 1px 10px #999;
+  border-radius: 5px;
 }
